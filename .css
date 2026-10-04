@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(20, 22, 22);
+    background-image: url(qq.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+div input {
+        border-radius: 120px;
+        padding: 5px;
+}
+#icon{
+    color: rgb(126, 132, 148);
+    top: -1px;
+    left: 155px;
+    position: relative;
+}
+#input-box{
+    padding: -10PX;
+    position: relative;
+}
+a{
+    color: rgb(254, 254, 255);
+    text-decoration: none;
+    transition: color 0.2s ease ; border-color: 0.2s  ease;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0.25rem;
+}
+a:hover,
+a:focus{
+    color: rgb(12, 12, 96);
+    border-bottom-color:rgb(12,12, 96);
+}
+.odd{
+    background-image: url(ss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    border-radius: 80px;
+}
+.mm{
+    margin-top: 100px;
+     margin-left: 450px; 
+     text-align: center;
+     border: 2px solid rgb(146, 123, 123);
+     border-radius: 100px;
+     backdrop-filter: blur(70px);
+     padding: 120px;
+     width: 350px;
+}
+input {
+    text-align: rgb(210, 94, 113);
+}
+#icon1{
+    color: rgb(169, 67, 130);
+    top: -1px;
+    left: 155px;
+    position: relative;
+}
+.a1{
+     color: rgb(254, 254, 255);
+    text-decoration: none;
+    transition: color 0.2s ease ; border-color: 0.2s ease;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0.25rem;
+}
+.a1:hover,
+.a1:focus{
+    color: rgb(104, 25, 65);
+    border-bottom-color:rgb(104, 25, 65);
+}
+.body3{
+    background: linear-gradient(rgb(26, 3, 5) );
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body3::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: pink;
+    position:absolute;
+    z-index: -1;
+    clip-path: circle(45% at right 70%);
+}
+.container {
+    width: 90%;
+    height: 90%;
+   background-color: rgb(59, 4, 41);
+   border-radius: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+nav .logo {
+    color: white;
+    border-bottom-color: white;
+    text-decoration: none;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px; 
+    font-weight: 700;
+}
+nav .oppo {
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 500;
+   padding: 5px;
+}
+nav .oppo:hover {
+    color: rgb(111, 26, 40) ;
+     border-bottom-color:rgb(96, 12, 44);
+}
+H2{
+    color: rgb(150, 46, 84);
+}
+p{
+    color: pink;
+} 
+ll1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
